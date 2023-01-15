@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* All button styles */
+.btn {
+  background-color: #FF900E;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  height: 64px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* --------------------------------
+  Header section styles
+---------------------------------- */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding-top: 50px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-title {
+  font-size: 45px;
+}
+
+.section-heading {
+  font-weight: 700;
+  color: #131313;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 35px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner-title {
+  margin-top: 100px;
+  font-size: 64px; 
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272; 
+  line-height: 26px;
+}
+
+.banner-info {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.banner-pic {
+  margin-top: 50px;
+}
+
+.banner-pic img {
+  width: 100%;
+}
+
+/* --------------------------------
+  Main section styles
+---------------------------------- */
+
+/* Our features styles */
+.our-features {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-album {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+
+.feature-content {
+  margin-left: 40px;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.text-grey {
+  color: #727272;
+}
+
+.text-black {
+  color: #131313;
+}
+
+.text-orange {
+  color: #FF900E;
+}
+
+.feature-info {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* Features will love & enjoy styles */
+.features-will-love {
+  margin-top: 130px;
+  display: flex;
+  position: relative;
+}
+
+.architect-title {
+  font-size: 45px;
+  padding: 0 21px;
+  border-left: 5px solid #FF900E;
+}
+
+.architect-info {
+  margin-top: 24px;
+}
+
+.architect-work {
+  margin-top: 30px;
+}
+
+.architect-blog {
+  margin-top: 20px;
+  box-shadow: 1px 1px 3px #ddd;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.blog-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+.blog-info {
+  margin-top: 10px;
+}
+
+.architect-pic {
+  margin-left: 40px;
+}
+
+.box-orange {
+  background-color: #FF900E;
+  color: #FFFFFF;
+  padding: 42px 45px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 470px;
+}
+
+.box-heading {
+  font-weight: 700;
+  font-size: 65px; 
+}
+
+.box-info {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Some facts styles */
+.fact-title {
+  margin-top: 130px;
+  font-size: 45px; 
+  margin-bottom: 24px;
+}
+
+.icons-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
+
+.icon {
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  padding: 36px 45px;
+  transform: rotate(0deg);
+	transition: transform 1s;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.base-number {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+
+.base-info {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* Our sponspors styles */
+.sponspor {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.sponspor-title {
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+
+.sponspor-logo-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Our skills styles */
+.our-skill {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skill-title {
+  font-size: 50px;
+  margin-bottom: 24px;
+  color: #FF900E;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+/* --------------------------------
+  Footer styles
+---------------------------------- */
+.footer {
+  margin-top: 130px;
+  background-color: #FFF4E7;
+  border-radius: 8px; 
+  text-align: center;
+  padding: 39px 0;
+}
+
+.footer-info {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+}
+
+/* -------------------------------
+  Responsive design
+---------------------------------- */
+
+/* Tablet and Medium devices */
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 20px 40px;
+  }
+
+  .nav,
+  ul,
+  .our-features,
+  .features-will-love {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .photo-album,
+  .sponspor-logo-container,
+  .icons-container,
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+  } 
+
+  .architect-pic {
+    width: 50%;
+  }
+
+  .architect-pic img {
+    width: 100%;
+  }
+
+  .box-orange {
+    position: static;
+  }
+
+  .some-fact {
+    text-align: center;
+  }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 710px) {
+  .container {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .photo-album,
+  .icons-container,
+  .sponspor-logo-container,
+  .skills {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 24px;
+  } 
+
+  .box-orange {
+    position: static;
+  }
+
+  .some-fact {
+    text-align: center;
+  }
+}
